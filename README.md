@@ -6,7 +6,7 @@ A simple Discord bot template with MongoDB support!
 
 to start off, clone the repository using git.
 
-```git clone https://github.com/YoruNoKen/DiscordBot-Template-MongoDB```
+``` git clone https://github.com/YoruNoKen/DiscordBot-Template-MongoDB ```
 
 After this, extract the main from the zip file and navigate inside of it.
 
