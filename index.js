@@ -80,8 +80,8 @@ events().then((database) => {
   };
 
   // event handler
-  fs.readdirSync("./src/events").forEach(async (file) => {
-    const event = await require(`./src/events/${file}`);
+  fs.readdirSync("./src/handlers").forEach(async (file) => {
+    const event = await require(`./src/handlers/${file}`);
     client.on(event.name, (...args) => event.execute(...args, database, slashCommandsArr));
   });
 });
